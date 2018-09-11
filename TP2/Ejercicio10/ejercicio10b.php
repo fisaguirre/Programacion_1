@@ -10,7 +10,7 @@ $var=$_GET["texto1"];
 </form>
 <form action="ejercicio10c.php" method="GET">
 <?php
-for($i=0;$i<$var;$i++){
+for($i=1;$i<$var+1;$i++){
 echo "Producto $i <input type=\"text\" name=\"s\" >";
 echo "<input type=\"checkbox\" name=\"Check$i\" ><br>";
 }
@@ -23,4 +23,3 @@ echo "<input type=\"checkbox\" name=\"Check$i\" ><br>";
 
 </body>
 </html>
-
